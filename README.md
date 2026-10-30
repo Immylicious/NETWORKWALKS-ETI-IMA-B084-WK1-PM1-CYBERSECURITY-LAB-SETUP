@@ -69,7 +69,7 @@ Step 3. Create the NAT Network
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration: Network Name: NatNetwork IPv4 Prefix: 10.0.0.0/24 DHCP: Enabled IPv6: Disabled
-
+<img width="1920" height="1080" alt="Screenshot 2026-10-25 215820" src="https://github.com/user-attachments/assets/087c2d09-9be3-4341-9cb5-3accae50a711" />
 
 
 A NAT Network was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
@@ -88,6 +88,9 @@ Adapter Type: Intel PRO/1000 MT Desktop
 The VM was allocated:
 
 RAM: 2048 MB
+
+<img width="812" height="620" alt="Screenshot 2026-10-29 102334" src="https://github.com/user-attachments/assets/0ed7b2d4-0516-4a67-ae8f-18187b8763a9" />
+
  A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 Step 5. Configure the Kali Linux Network
@@ -101,10 +104,15 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
+<img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/0540e2ba-fc3b-4948-a8a1-0ff49e86c63d" />
+<img width="741" height="606" alt="Screenshot 2026-10-30 124130" src="https://github.com/user-attachments/assets/8175fad0-7e0d-46dc-bcda-a49f99b19ca1" />
+
 
 
 Step 6. Create a Clean VM Snapshot
 After completing the initial configuration, a VirtualBox snapshot was created.
+<img width="1065" height="615" alt="Screenshot 2026-10-30 123959" src="https://github.com/user-attachments/assets/dd62660c-ef00-4328-85b3-adf753ab7d67" />
+
 
 Example snapshot name:
 
