@@ -62,20 +62,32 @@ Additional target machines can be added to the same virtual network in future pr
 ⚙️ Lab Configuration
 
 🧩 Component	⚙️ Configuration
+
 🖥️ Host OS	Windows 10
+
 🧠 Host RAM	16 GB
+
 ⚡ Processor	Intel Core i5
+
 🧰 Hypervisor	VirtualBox 7.2.2
+
 🐉 Security OS	Kali Linux 2026.3
+
 🧠 Kali RAM	2048 MB
+
 🌐 Virtual Network	NAT Network
+
 📡 Network Address	10.0.0.0/24
+
 🐧 Kali IP Address	10.0.0.2/24
+
 🚪 Default Gateway	10.0.0.1
+
 🌍 DNS Server	8.8.8.8
+
 🔮 Future VM Range	10.0.0.3–10.0.0.99
 
-🪜 Lab Setup Procedure
+Lab Setup Procedure
 
 Step 1. Install 7-Zip
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
@@ -139,24 +151,7 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-🔎 Lab Verification
-✅ Test	🧾 Command	🎯 Expected Result
-🌐 Check IP address	ip a	Correct Kali IP displayed
-📡 Test gateway	ping 10.0.0.1	Successful replies
-🌍 Test Internet connectivity	ping 8.8.8.8	Successful replies
-🔎 Test DNS resolution	nslookup networkwalks.com	Domain resolves
-🧰 Verify Nmap	nmap --version	Nmap version displayed
-🔄 Verify snapshot	Restore snapshot and run ip a	Baseline configuration restored
-Example Results
-IP Address:
-10.0.0.2/24
-
-Gateway:
-10.0.0.1
-
-DNS:
-8.8.8.8
-🐞 Problems Encountered & Solutions
+Problems Encountered & Solutions
 Documenting problems is an important part of the project.
 
 Problem 1. Internet Connectivity After Static IP Configuration
@@ -169,7 +164,7 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 Important: Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an nmcli command.
 
-💡 What I Learned
+What I Learned
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
 The most important concepts I learned include:
@@ -193,10 +188,10 @@ I learned that a clean snapshot should be created before performing risky or exp
 5. Documentation
 I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
 
-🔐 Security & Ethical Use
+Security & Ethical Use
 This laboratory is intended strictly for education purposes only.
 
-🔗 Tools & Resources
+Tools & Resources
 7-Zip: https://7-zip.org/download.html
 VirtualBox: https://virtualbox.org/wiki/Downloads
 Kali Linux: https://kali.org/get-kali
