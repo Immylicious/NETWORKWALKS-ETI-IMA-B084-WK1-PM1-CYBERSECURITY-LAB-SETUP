@@ -121,7 +121,7 @@ The VM was allocated:
 
 RAM: 2048 MB
 
-\<img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/60030854-eea0-42f6-b931-9f9e54c8dfb2" />
+<img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/60030854-eea0-42f6-b931-9f9e54c8dfb2" />
 
 
 <img width="812" height="620" alt="Screenshot 2026-10-29 102334" src="https://github.com/user-attachments/assets/0ed7b2d4-0516-4a67-ae8f-18187b8763a9" />
