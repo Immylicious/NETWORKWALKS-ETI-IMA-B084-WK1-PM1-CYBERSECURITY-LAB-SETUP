@@ -1,4 +1,4 @@
-# NETWORKWALKS-ETI-IMA-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP
+CYBERSECURITY-LAB-ENVIRONMENT-SETUP
 
 🔐 Cybersecurity Lab Environment Setup
 Building an isolated virtual lab for penetration testing and ethical hacking practice
@@ -43,20 +43,35 @@ Security-tool experimentation
 Additional target machines can be added to the same virtual network in future projects.
 
 ⚙️ Lab Configuration
+
 🧩 Component	⚙️ Configuration
+
 🖥️ Host OS	Windows 10
+
 🧠 Host RAM	16 GB
+
 ⚡ Processor	Intel Core i5
+
 🧰 Hypervisor	VirtualBox 7.2.2
+
 🐉 Security OS	Kali Linux 2026.2
+
 🧠 Kali RAM	2048 MB
+
 🌐 Virtual Network	NAT Network
+
 📡 Network Address	10.0.0.0/24
+
 🐧 Kali IP Address	10.0.0.2/24
+
 🚪 Default Gateway	10.0.0.1
+
 🌍 DNS Server	8.8.8.8
+
 🔮 Future VM Range	10.0.0.3–10.0.0.99
+
 🪜 Lab Setup Procedure
+
 Step 1. Install 7-Zip
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a .7z archive.
 
@@ -97,9 +112,13 @@ Step 5. Configure the Kali Linux Network
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
 IP Address: 10.0.0.2
+
 Subnet Mask: 255.255.255.0
+
 Gateway: 10.0.0.1
+
 DNS: 8.8.8.8
+
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
 <img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/0540e2ba-fc3b-4948-a8a1-0ff49e86c63d" />
