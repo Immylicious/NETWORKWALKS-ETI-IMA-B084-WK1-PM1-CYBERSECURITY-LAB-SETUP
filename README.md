@@ -30,7 +30,9 @@ Take a clean VM snapshot for recovery.
 Document the complete setup process.
 
 Prepare the environment for future cybersecurity projects.
+
 🛡️ Purpose of the Lab
+
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
 
 It can be used for activities such as:
@@ -59,32 +61,18 @@ Additional target machines can be added to the same virtual network in future pr
 
 ⚙️ Lab Configuration
 
-🧩 Component	
-
-⚙️ Configuration
-
+🧩 Component	⚙️ Configuration
 🖥️ Host OS	Windows 10
-
 🧠 Host RAM	16 GB
-
 ⚡ Processor	Intel Core i5
-
 🧰 Hypervisor	VirtualBox 7.2.2
-
-🐉 Security OS	Kali Linux 2026.2
-
+🐉 Security OS	Kali Linux 2026.3
 🧠 Kali RAM	2048 MB
-
 🌐 Virtual Network	NAT Network
-
 📡 Network Address	10.0.0.0/24
-
 🐧 Kali IP Address	10.0.0.2/24
-
 🚪 Default Gateway	10.0.0.1
-
 🌍 DNS Server	8.8.8.8
-
 🔮 Future VM Range	10.0.0.3–10.0.0.99
 
 🪜 Lab Setup Procedure
