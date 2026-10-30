@@ -45,9 +45,9 @@ Additional target machines can be added to the same virtual network in future pr
 ⚙️ Lab Configuration
 🧩 Component	⚙️ Configuration
 🖥️ Host OS	Windows 10
-🧠 Host RAM	8 GB
-⚡ Processor	Intel Core i7
-🧰 Hypervisor	VirtualBox 7.2
+🧠 Host RAM	16 GB
+⚡ Processor	Intel Core i5
+🧰 Hypervisor	VirtualBox 7.2.2
 🐉 Security OS	Kali Linux 2026.2
 🧠 Kali RAM	2048 MB
 🌐 Virtual Network	NAT Network
@@ -96,8 +96,6 @@ RAM: 2048 MB
 Step 5. Configure the Kali Linux Network
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
-Example configuration:
-
 IP Address: 10.0.0.2
 Subnet Mask: 255.255.255.0
 Gateway: 10.0.0.1
@@ -107,16 +105,11 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 <img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/0540e2ba-fc3b-4948-a8a1-0ff49e86c63d" />
 <img width="741" height="606" alt="Screenshot 2026-10-30 124130" src="https://github.com/user-attachments/assets/8175fad0-7e0d-46dc-bcda-a49f99b19ca1" />
 
-
-
 Step 6. Create a Clean VM Snapshot
 After completing the initial configuration, a VirtualBox snapshot was created.
 <img width="1065" height="615" alt="Screenshot 2026-10-30 123959" src="https://github.com/user-attachments/assets/dd62660c-ef00-4328-85b3-adf753ab7d67" />
 
-
-Example snapshot name:
-
-Clean Kali - Network Setup
+Kali Linux VM Setup
 The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
@@ -151,19 +144,6 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 Important: Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an nmcli command.
 
-Problem 2. VirtualBox VT-x / Virtualization Error
-The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
-
-The issue was resolved by:
-
-Restarting the computer.
-Entering BIOS/UEFI settings.
-Enabling Intel VT-x / hardware virtualization.
-Saving the configuration.
-Restarting the computer.
-Starting the Kali VM again.
-After enabling virtualization, the VM started successfully.
-
 💡 What I Learned
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -183,9 +163,7 @@ I learned how VirtualBox virtual network adapters connect virtual machines to di
 I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
 
 4. VM Snapshots
-I learned that a clean snapshot should be created before performing risky or experimental activities.
-
-This provides a known-good recovery point for future cybersecurity exercises.
+I learned that a clean snapshot should be created before performing risky or experimental activities in order to retain the original state of the machine.
 
 5. Documentation
 I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
@@ -198,10 +176,11 @@ This laboratory is intended strictly for education purposes only.
 VirtualBox: https://virtualbox.org/wiki/Downloads
 Kali Linux: https://kali.org/get-kali
 👤 Author
-Waqas Karim
-Cybersecurity Professional B082
+Eti-Ima Imo Ebisoh
+Cybersecurity Intern at networkwalks cohort B084
 
-LinkedIn: https://www.linkedin.com/in/waqaskarim/
+LinkedIn:www.linkedin.com/in/eti-ima-imo-ebisoh-03b56b2a3
+
 
 📌 Project Information
 Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
