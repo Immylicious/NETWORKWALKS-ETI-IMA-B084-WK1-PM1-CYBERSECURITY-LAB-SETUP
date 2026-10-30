@@ -1,15 +1,7 @@
 # NETWORKWALKS-ETI-IMA-B084-WK1-PM1-CYBERSECURITY-LAB-SETUP
 
-Preview
-
-Code
-
-Blame
-317 lines (197 loc) · 9.97 KB
 🔐 Cybersecurity Lab Environment Setup
 Building an isolated virtual lab for penetration testing and ethical hacking practice
-
-           
 
 📌 Project Overview
 This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
@@ -45,6 +37,7 @@ Security-tool experimentation
 ⚠️ Important: This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
 🏗️ Lab Architecture
+<img width="1346" height="616" alt="image" src="https://github.com/user-attachments/assets/a7f7f7c4-dcb9-42cb-8155-3c6828d54780" />
 
 
 Additional target machines can be added to the same virtual network in future projects.
