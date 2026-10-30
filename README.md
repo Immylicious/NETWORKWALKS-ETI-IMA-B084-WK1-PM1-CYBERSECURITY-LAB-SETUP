@@ -1,16 +1,15 @@
 CYBERSECURITY-LAB-ENVIRONMENT-SETUP
 
-🔐 Cybersecurity Lab Environment Setup
 Building an isolated virtual lab for penetration testing and ethical hacking practice
 
-📌 Project Overview
-This project focuses on setting up a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
+Project Overview
+The aim of the project is to setup a virtual cybersecurity and penetration-testing laboratory using VirtualBox and Kali Linux.
 
 The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
 
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
-🎯 Objectives
+Objectives
 
 The main objectives of this project are to:
 
@@ -122,6 +121,9 @@ The VM was allocated:
 
 RAM: 2048 MB
 
+\<img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/60030854-eea0-42f6-b931-9f9e54c8dfb2" />
+
+
 <img width="812" height="620" alt="Screenshot 2026-10-29 102334" src="https://github.com/user-attachments/assets/0ed7b2d4-0516-4a67-ae8f-18187b8763a9" />
 
  A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
@@ -137,9 +139,7 @@ Gateway: 10.0.0.1
 
 DNS: 8.8.8.8
 
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-<img width="970" height="593" alt="Screenshot 2026-10-25 221438" src="https://github.com/user-attachments/assets/0540e2ba-fc3b-4948-a8a1-0ff49e86c63d" />
 <img width="741" height="606" alt="Screenshot 2026-10-30 124130" src="https://github.com/user-attachments/assets/8175fad0-7e0d-46dc-bcda-a49f99b19ca1" />
 
 Step 6. Create a Clean VM Snapshot
